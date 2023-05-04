@@ -10,6 +10,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  // 这里的App 代表了 {App : App} 在es6里面，如果你的键和值是一样的，其实只要写一个就行了！
   components: { App },
   template: '<App/>'
 })
