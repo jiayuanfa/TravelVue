@@ -64,3 +64,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 - main.js引入border.css、reset.css文件
 
 ## iconfont的使用和代码优化
+- src/styles下创建iconfont文件夹，把从网络上下载的字体文件放进去
+- 把iconfont.css文件放在styles文件夹下面
+- main.js引入inconfont.css文件
+- 在需要写入icon的地方，直接复制网站的代码到标签里即可
+
+### 代码优化
+- 把整个项目中的关于颜色色值的代码统一放置的合适的位置
+- 代码里面直接调用即可
+- 长目录寻找，直接在webpack.base.conf.js里面创建文件夹别名即可
