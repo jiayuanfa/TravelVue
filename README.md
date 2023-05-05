@@ -19,3 +19,43 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+# 开发进程
+
+# 框架
+## 单文件组件与Vue中的路由
+## 单页应用VS多页应用
+### 多页面
+- 每次后台都给返回一个html
+- 页面切换比较慢
+- 首页快
+### 单页面
+- 每次后台只返回路由
+- 渲染由Vue来做，节省了很多http请求
+- 首屏时间会稍微慢一点，SEO差
+- 搜索引擎优化效果比较差
+## 路由实现的原理
+- 后端路由的实现原理
+- Browser History 的实现原理
+- Hash History 的实现原理
+- 前端路由和后端路由的区别？
+- 多页应用和单页应用的优势是什么？
+- 前端路由有哪些？实现原理是什么？
+- 后端路由的实现原理是什么？
+- 你现在开发的项目，使用的是怎么样的路由方式？有没有遇到什么问题？
+
+# 首页Header区域的开发
+## UI分析
+- iPhone6 2x设计稿
+- 顶部搜索栏
+
+## 安装CSS依赖包
+- npm install stylus --save 
+- npm install stylus-loader --save 
+- npm run start 
+
+## Stylus等CSS布局的使用
+- 引入Stylus布局框架
+
+## iconfont的使用和代码优化
