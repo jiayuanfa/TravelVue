@@ -58,4 +58,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## Stylus等CSS布局的使用
 - 引入Stylus布局框架
 
+## 浏览器布局兼容问题修复
+- src/assets下引入styles文件夹
+- webpack.base.conf.js配置
+- main.js引入border.css、reset.css文件
+
 ## iconfont的使用和代码优化
